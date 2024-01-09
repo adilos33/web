@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Digital Product Store</title>
+    <!-- You can add CSS styles here or link an external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Digital Store</h1>
+        <!-- Navigation links -->
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Our Products</h2>
+            <!-- Product listing -->
+            <div class="product">
+                <h3>Product Title</h3>
+                <p>Description of the product.</p>
+                <p>Price: $X.XX</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Repeat similar product sections for other products -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- Contact form or information -->
+            <p>Contact details here...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Digital Store</p>
+    </footer>
+</body>
+</html>
